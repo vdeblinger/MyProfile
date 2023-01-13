@@ -43,19 +43,20 @@ nav {
     margin-top: 100px;
     opacity: 0.7;
     border-radius: 16px;
+    padding: 17% 20%;
 }
 #homepage h1 {
     text-align: end;
     font-size: 60px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: red;
-    padding-right: 200px;
-    padding-top: 10px;
+    /* padding-right: 200px; */
+    /* padding-top: 10px; */
     opacity: 0.7;
 }
 #homepage h2 {
     text-align: start;
-    padding-left: 200px;
+    /* padding-left: 200px; */
     font-size: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
@@ -161,5 +162,37 @@ nav {
     margin-right: 40%;
 }
 #song-link:active {
+    color: rgb(49, 3, 3)
+}
+#projects {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/006/076/792/original/10-abstract-modern-attractive-black-and-red-background-free-vector.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    padding: 20% 25%;
+    margin: 100px 100px;
+}
+#projects h2 {
+    color: red;
+    font-size: 34px;
+    text-align: end;
+}
+#project-link {
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+#project-link:hover {
+    background-color: rgb(61, 58, 58);
+    border-radius: 14px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+#project-link:active {
     color: rgb(49, 3, 3)
 }
